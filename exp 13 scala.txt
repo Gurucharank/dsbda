@@ -1,0 +1,55 @@
+//checks if a number is positive, negative, or zero
+object Number{ 
+def main (args: Array[String]) 
+{ 
+var number = (-100); 
+if(number==0) { 
+println("number is zero"); 	
+} 
+else if(number>0) { 
+println("number is positive"); 	
+} 
+else { println("number is negative"); 	
+}
+}
+}
+
+//Print name
+object Name { 
+def main (args: Array[String]) { 
+println("my name is name"); 
+}  }
+
+// concanate string
+object String { 
+def main (args: Array[String])
+ { 
+var text: String = "Scala in programming langauge"; 
+println("string is "+text); 
+} 
+}
+
+// compares two numbers
+object Find_Number{ 
+def main (args: Array[String]) { 
+var number1 = 20; 
+var number2 = 40; 
+if(number1>number2) 
+ { 
+println("large number is "+number1); 
+ } 
+else 
+{ println("large number is "+number2);  
+}
+ }
+  }
+
+// addition of no
+object Addition {
+  def main(args: Array[String]) {
+    val num1 = 10
+    val num2 = 20
+    val sum = num1 + num2
+    println("The sum is: " + sum) 
+ }
+   }
